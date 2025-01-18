@@ -503,6 +503,7 @@ a {
     justify-content: center;
 }
 
+
 .imagem-sobre {
     display: flex;
     justify-content: right;
@@ -516,6 +517,42 @@ a {
     z-index: 99;
 }
 
+/* Modo responsivo */
+@media (max-width: 768px) {
+    .imagem-sobre {
+        justify-content: center; 
+        position: relative;
+    }
+    .imagem-sobre img {
+        width: 100%;
+    }
+}
+
+/* Modo Desktop */
+@media (min-width: 1024px) {
+    .imagem-sobre {
+        position: absolute;
+        top: 100%; 
+        left: 50%;
+        transform: translateX(-50%); 
+        margin-top: 20px; 
+    }
+    .imagem-sobre img {
+        width: 95%; 
+    }
+}
+
+/* Modo PC */
+@media (min-width: 1280px) {
+    .imagem-sobre {
+        position: absolute;
+        top: 0; 
+        right: 0;
+    }
+    .imagem-sobre img {
+        width: 90%; 
+    }
+}
 /*************** SKILLS *****/
 .skills {
     width: 100%;
