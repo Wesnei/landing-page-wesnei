@@ -8,7 +8,7 @@ Bem-vindo ao meu **Portfólio Pessoal**. Aqui você pode conhecer melhor meus pr
 
 Com a experiência adquirida ao longo do tempo, desenvolvi habilidades tanto em front-end quanto back-end, trabalhando com várias linguagens e frameworks. Algumas das tecnologias com as quais trabalho incluem:
 
-- **Front-End**: HTML5, CSS3, JavaScript, React
+- **Front-End**: HTML5, CSS3, JavaScript, React, TypeScript
 - **Back-End**: Node.js, Express, Python, Java, FastAPI
 - **Banco de Dados**: PostgreSQL, MySQL, MongoDB
 - **Frameworks e Bibliotecas**: Sequelize, SQLAlchemy, Jest, Cypress
