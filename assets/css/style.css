@@ -820,11 +820,9 @@ a {
     flex-direction: row-reverse;
 }
 
-/* ============ ÁREAS MODIFICADAS ============ */
-
 .project-media {
     flex: 1;
-    min-height: 500px; /* Altura aumentada */
+    min-height: 500px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -847,8 +845,6 @@ a {
 .project-card:hover .project-image {
     transform: scale(1.02);
 }
-
-/* ============ FIM DAS MODIFICAÇÕES ============ */
 
 .project-info {
     flex: 1;
